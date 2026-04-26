@@ -137,3 +137,34 @@ details[open] > summary {
     color: #444;
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 16px 40px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .entry {
+        display: block;
+        margin-bottom: 1.2em;
+    }
+
+    .date {
+        display: inline;
+        font-size: 0.78em;
+        color: #999;
+        font-weight: normal;
+        padding-top: 0;
+    }
+
+    details > summary {
+        flex-wrap: wrap;
+    }
+
+    .feed-name {
+        white-space: normal;
+    }
+}

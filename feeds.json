@@ -34,6 +34,10 @@
     {
       "name": "DeepMind",
       "url": "https://deepmind.google/blog/feed.xml"
+    },
+    {
+      "name": "Google Research",
+      "url": "https://research.google/blog/rss/"
     }
   ]
 }

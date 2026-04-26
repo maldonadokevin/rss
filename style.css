@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    font-family: 'Lora', Georgia, serif;
+    background: #f0efec;
+    color: #3a3a3a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 28px 24px 48px;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin: 0 0 0.1em;
+    line-height: 1.1;
+    color: #1f1f1f;
+}
+
+.generated {
+    color: #888;
+    margin: 0 0 0.6em;
+    font-size: 0.9em;
+}
+
+.description {
+    color: #777;
+    max-width: 760px;
+    margin: 0 0 1.6em;
+    font-size: 0.92em;
+}
+
+section {
+    margin-top: 1.2em;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    column-gap: 24px;
+    margin-bottom: 0.7em;
+    align-items: start;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 0.88em;
+    padding-top: 3px;
+    white-space: nowrap;
+    color: #555;
+}
+
+.content { min-width: 0; }
+
+details > summary {
+    list-style: none;
+    cursor: pointer;
+    color: #2a2a2a;
+    font-size: 1em;
+    line-height: 1.4;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+}
+
+details > summary::-webkit-details-marker { display: none; }
+
+details > summary::marker { display: none; }
+
+details > summary:hover {
+    color: #000;
+}
+
+details[open] > summary {
+    margin-bottom: 0.4em;
+}
+
+.feed-name {
+    font-size: 0.78em;
+    color: #bbb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.summary {
+    font-style: italic;
+    color: #666;
+    font-size: 0.92em;
+    margin: 0 0 0.3em;
+    line-height: 1.55;
+    border-left: 3px solid #ccc9c0;
+    padding-left: 0.8em;
+}
+
+.link-line {
+    text-align: center;
+    margin: 0.3em 0 0;
+}
+
+.link-line a {
+    color: #999;
+    font-size: 0.88em;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.link-line a:hover {
+    color: #444;
+    text-decoration: underline;
+}

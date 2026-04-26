@@ -18,6 +18,22 @@
     {
       "name": "GitHub Engineering",
       "url": "https://github.blog/engineering/feed/"
+    },
+    {
+      "name": "Lilian Weng",
+      "url": "https://lilianweng.github.io/posts/index.xml"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "name": "Huyen Chip",
+      "url": "https://huyenchip.com/feed.xml"
+    },
+    {
+      "name": "DeepMind",
+      "url": "https://deepmind.google/blog/feed.xml"
     }
   ]
 }

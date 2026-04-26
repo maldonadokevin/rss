@@ -99,6 +99,10 @@ def render_page(config, entries):
 </head>
 <body>
   <div class="container">
+    <nav>
+      <a href="index.html" class="active">Blogs</a>
+      <a href="papers.html">Papers</a>
+    </nav>
     <h1>{title}</h1>
     <p class="generated">Generated on {today}.</p>
 {desc_block}    <section>

@@ -17,16 +17,6 @@
     <p class="description">Today&#x27;s most upvoted ML papers on Hugging Face, sorted by community votes.</p>
     <section>
       <div class="entry">
-        <div class="date">↑ 67</div>
-        <div class="content">
-          <details>
-            <summary>BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding<span class="feed-name">Hao Zhang, Yiming Hu, Yong Wang, Mingqiao Mo, et al.</span></summary>
-            <p class="summary">Speculative decoding accelerates inference by using a lightweight draft model to generate candidate tokens in parallel, and are then verified by the target model, enabling lossless acceleration. Recently, diffusion-based speculative decoding further improves parallelism by generating multiple tokens per forward pass via block-level diffusion, achieving state-of-the-art (SOTA) performance.…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31315">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31315">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
         <div class="date">↑ 28</div>
         <div class="content">
           <details>
@@ -37,17 +27,7 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 23</div>
-        <div class="content">
-          <details>
-            <summary>Multi-Block Diffusion Language Models<span class="feed-name">Yijie Jin, Jiajun Xu, Yuxuan Liu, Chenkai Xu, et al.</span></summary>
-            <p class="summary">Block Diffusion Language Models (BD-LMs) improve diffusion-based text generation with KV caching and flexible-length generation. A natural next step is to extend them from Single-Block Diffusion (SingleBD) to Multi-Block Diffusion (MultiBD), where a running-set of consecutive blocks is decoded concurrently for inter-block parallelism. However, existing BD-LMs are mostly trained under teacher…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.29215">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.29215">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 18</div>
+        <div class="date">↑ 19</div>
         <div class="content">
           <details>
             <summary>MemLearner: Learning to Query Context memory for Video World Models<span class="feed-name">Jiwen Yu, Jianxiong Gao, Jianhong Bai, Yiran Qin, et al.</span></summary>
@@ -57,7 +37,7 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 17</div>
+        <div class="date">↑ 18</div>
         <div class="content">
           <details>
             <summary>DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation<span class="feed-name">Siyu Yan, Yizhen Gao, Yilin Wang, Dongxing Mao, et al.</span></summary>
@@ -67,7 +47,17 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 16</div>
+        <div class="date">↑ 17</div>
+        <div class="content">
+          <details>
+            <summary>MemSyco-Bench: Benchmarking Sycophancy in Agent Memory<span class="feed-name">Zhishang Xiang, Zerui Chen, Yunbo Tang, Zhimin Wei, et al.</span></summary>
+            <p class="summary">Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved memories often induce a critical issue of sycophancy, causing agents to over-align with the user at the cost of factual accuracy or objective reasoning. Despite this emerging risk, existing memory…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01071">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01071">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 17</div>
         <div class="content">
           <details>
             <summary>Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs<span class="feed-name">Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona, Idan Szpektor, et al.</span></summary>
@@ -77,12 +67,62 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 13</div>
+        <div class="date">↑ 16</div>
         <div class="content">
           <details>
-            <summary>PhotoQuilt: Training-Free Arbitrary-Resolution Photomosaics via Bootstrapped Tiled Denoising<span class="feed-name">Koorosh Roohi, Javad Rajabi, Andrew Fleet, Babak Taati</span></summary>
-            <p class="summary">Photomosaics are large images whose local regions are seen as independent tiles while their overall arrangement forms a coherent scene. Generating them at high resolution, with every tile convincing in its own right, is computationally expensive, since the canvas must hold many detailed tiles at once. We present PhotoQuilt, a training-free framework that generates photomosaics at arbitrary…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.30968">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.30968">arxiv</a></p>
+            <summary>ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving<span class="feed-name">Sangjin Choi, Sukmin Cho, Yifan Xiong, Ziyue Yang, et al.</span></summary>
+            <p class="summary">In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00466">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00466">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 15</div>
+        <div class="content">
+          <details>
+            <summary>Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts<span class="feed-name">Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi</span></summary>
+            <p class="summary">Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires training on multiple demonstrations for each task, which are costly to collect. To reduce the burden…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00666">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00666">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 11</div>
+        <div class="content">
+          <details>
+            <summary>Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning<span class="feed-name">Shijie Li, Yilin Gao, Siyuan Yang, Tieyuan Chen, et al.</span></summary>
+            <p class="summary">Multimodal Large Language Models (MLLMs) are often constrained by a language-space bottleneck, forcing complex visual reasoning into discrete tokens which can lose perceptual nuance. A promising alternative is continuous latent reasoning, where the goal is to discover implicit reasoning pathways that bridge the multimodal query and the final answer. However, this introduces a severe…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00461">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00461">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 10</div>
+        <div class="content">
+          <details>
+            <summary>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement<span class="feed-name">Seohyun Lee, Seoung Choi, Dohwan Ko, Jongha Kim, et al.</span></summary>
+            <p class="summary">As video corpora continue to expand in both scale and task complexity, there is increasing demand for approaches that retrieve relevant videos from large-scale corpora (inter-video reasoning) and subsequently perform fine-grained, query-conditioned tasks (intra-video reasoning) within the retrieved content, such as temporal grounding. However, existing approaches typically treat retrieval as a…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00446">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00446">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 9</div>
+        <div class="content">
+          <details>
+            <summary>Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning<span class="feed-name">Hongxing Li, Xiufeng Huang, Dingming Li, Wenjing Jiang, et al.</span></summary>
+            <p class="summary">Fine-grained visual reasoning remains challenging for vision-language models, especially when small but critical visual cues are buried in high-resolution images. Existing approaches rely on repeated cropping or test-time visual search to introduce local evidence, but they typically do not explicitly distinguish perception from reasoning. In this paper, we propose Perceive-to-Reason (P2R), a…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01191">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01191">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 9</div>
+        <div class="content">
+          <details>
+            <summary>CausalMix: Data Mixture as Causal Inference for Language Model Training<span class="feed-name">Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, et al.</span></summary>
+            <p class="summary">In Large Language Model (LLM) training, data mixing plays a pivotal role in determining model performance. Recent methods optimize mixture weights via proxy models, but they rely on the assumption of static data distributions. As a result, when the underlying data pool shifts, these methods require costly retraining from scratch. This limitation restricts their ability to scale seamlessly from…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01104">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01104">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -97,32 +137,12 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 9</div>
+        <div class="date">↑ 7</div>
         <div class="content">
           <details>
-            <summary>Xiaomi-GUI-0 Technical Report<span class="feed-name">Wanxia Cao, Chengzhen Duan, Pei Fu, Pengzhi Gao, et al.</span></summary>
-            <p class="summary">Graphical user interface (GUI) agents build on vision-language models to complete user tasks end-to-end in real applications through interface actions such as tapping, swiping, text entry, and navigation. However, existing GUI agents are trained and evaluated largely on offline trajectories, simulated environments, and standardized benchmarks. These differ substantially from real applications in…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31410">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31410">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 8</div>
-        <div class="content">
-          <details>
-            <summary>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement<span class="feed-name">Seohyun Lee, Seoung Choi, Dohwan Ko, Jongha Kim, et al.</span></summary>
-            <p class="summary">As video corpora continue to expand in both scale and task complexity, there is increasing demand for approaches that retrieve relevant videos from large-scale corpora (inter-video reasoning) and subsequently perform fine-grained, query-conditioned tasks (intra-video reasoning) within the retrieved content, such as temporal grounding. However, existing approaches typically treat retrieval as a…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00446">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00446">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 6</div>
-        <div class="content">
-          <details>
-            <summary>Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts<span class="feed-name">Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi</span></summary>
-            <p class="summary">Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires training on multiple demonstrations for each task, which are costly to collect. To reduce the burden…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00666">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00666">arxiv</a></p>
+            <summary>ASPIRE: Agentic /Skills Discovery for Robotics<span class="feed-name">Runyu Lu, Yubo Wu, Ethan Kou, Letian Fu, et al.</span></summary>
+            <p class="summary">Traditional robot programming is challenging: it requires orchestrating multimodal perception, managing physical contact dynamics, and handling diverse configurations and execution failures. We introduce ASPIRE (Agentic Skill Programming through Iterative Robot Exploration), a continual learning system that autonomously writes and refines robot control programs in a code-as-policy paradigm while…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00272">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00272">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -140,9 +160,9 @@
         <div class="date">↑ 4</div>
         <div class="content">
           <details>
-            <summary>CausalMix: Data Mixture as Causal Inference for Language Model Training<span class="feed-name">Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, et al.</span></summary>
-            <p class="summary">In Large Language Model (LLM) training, data mixing plays a pivotal role in determining model performance. Recent methods optimize mixture weights via proxy models, but they rely on the assumption of static data distributions. As a result, when the underlying data pool shifts, these methods require costly retraining from scratch. This limitation restricts their ability to scale seamlessly from…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.01104">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01104">arxiv</a></p>
+            <summary>Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity<span class="feed-name">Bytedance Seed</span></summary>
+            <p class="summary">We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evaluation system by selecting and abstracting benchmarks grounded in these needs and in realistic, complex scenarios. Guided by this evaluation system, Seed2.0 targets two persistent…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00248">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00248">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -150,9 +170,89 @@
         <div class="date">↑ 3</div>
         <div class="content">
           <details>
-            <summary>AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation<span class="feed-name">Kien T. Pham, I Chieh Chen, Qifeng Chen, Long Chen</span></summary>
-            <p class="summary">Audio-video generation has recently gained unprecedented research attention, aiming to synthesize high-quality sounding video content with fine-grained synchronization and semantic alignment between the auditory and visual components. The preceding methods predominantly adopt a dual-branch design with separate tokenization and generation modules per modality, neglecting the representation gap…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.30811">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.30811">arxiv</a></p>
+            <summary>The State-Prediction Separation Hypothesis<span class="feed-name">Giovanni Monea, Nathan Godey, Kianté Brantley, Yoav Artzi</span></summary>
+            <p class="summary">Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the state-prediction separation hypothesis: disentangling the two roles yields better language modeling performance. We design a Transformer variant that uses two computation streams to separate the two functions, and conduct pretraining experiments…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01218">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01218">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>Autonomous Scientific Discovery via Iterative Meta-Reflection<span class="feed-name">Bingchen Zhao, Sara Beery, Oisin Mac Aodha</span></summary>
+            <p class="summary">Autonomous scientific discovery systems offer the potential to accelerate research by automating the process of hypothesis generation and validation. However, current systems operate within constrained search spaces or require predefined research questions, limiting their capacity for true open-ended inquiry. Furthermore, while they generate hypotheses iteratively, they largely lack the ability…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01131">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01131">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>Valdi: Value Diffusion World Models<span class="feed-name">Christopher Lindenberg, Kashyap Chitta</span></summary>
+            <p class="summary">World models can enable Model Predictive Control (MPC), but this requires dynamics prediction that is both fast enough for online use and expressive enough to represent uncertain futures. Diffusion models offer a natural mechanism for modeling uncertain dynamics, yet their iterative inference procedure makes them difficult to use for low-latency latent planning. We bridge this gap with Value…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00917">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00917">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization<span class="feed-name">Jingchen Ni, Cangjin Yu, Dan Jiang, Quan Zhang, et al.</span></summary>
+            <p class="summary">Driven by Artificial Intelligence-Generated Content (AIGC), the authenticity of audio-visual content is facing severe challenges. Temporal Forgery Localization (TFL) aims to precisely identify manipulated segments within untrimmed sequences. However, existing methods are limited by CNNs&#x27; local receptive fields or Transformers&#x27; quadratic complexity, while emerging linear models often struggle to…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00902">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00902">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>ABot-M0.5: Unified Mobility-and-Manipulation World Action Model<span class="feed-name">Ronghan Chen, Yandan Yang, Zuojin Tang, Dongjie Huo, et al.</span></summary>
+            <p class="summary">Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods. VLA policies are typically reactive and lack explicit world modeling, while existing World Action Models (WAMs) are still poorly aligned with the structure of mobile manipulation: they operate on coarse video chunks, model entangled navigation-manipulation actions,…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00678">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00678">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>Cross-Domain Generalization Failure in Lightweight Intrusion Detection Models for IIoT Networks<span class="feed-name">MD Azizul Hakim, Md Shihab Uddin, Talha Ibne Anis</span></summary>
+            <p class="summary">Lightweight machine learning models are increasingly proposed for intrusion detection in Industrial Internet of Things (IIoT) networks due to their suitability for resource-constrained edge deployment. Most reported results evaluate these models only within their training network, leaving behavior on unseen networks unverified. This study trains four lightweight architectures on one IIoT dataset…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00553">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00553">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE<span class="feed-name">Or Hirschorn, Aaron Olender, Eli Alshan, Ianir Ideses, et al.</span></summary>
+            <p class="summary">We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2606.32033">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32033">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors<span class="feed-name">Yuqing Yang, Qi Zhu, Zhen Han, Boran Han, et al.</span></summary>
+            <p class="summary">While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2606.32029">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32029">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 3</div>
+        <div class="content">
+          <details>
+            <summary>AutoTrainess: Teaching Language Models to Improve Language Models Autonomously<span class="feed-name">Zhaojian Yu, Penghao Yin, Shuzheng Gao, Shilin He, et al.</span></summary>
+            <p class="summary">Training language models (LMs) remains a highly human-intensive process, even as frontier language model agents become increasingly capable at software engineering and other long-horizon tasks. A central challenge is that autonomous post-training is not just a coding problem: it requires the agent to repeatedly plan iterations, construct benchmark-aligned data, run stable training jobs, evaluate…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2606.31551">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31551">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -160,9 +260,9 @@
         <div class="date">↑ 2</div>
         <div class="content">
           <details>
-            <summary>MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization<span class="feed-name">Jingchen Ni, Cangjin Yu, Dan Jiang, Quan Zhang, et al.</span></summary>
-            <p class="summary">Driven by Artificial Intelligence-Generated Content (AIGC), the authenticity of audio-visual content is facing severe challenges. Temporal Forgery Localization (TFL) aims to precisely identify manipulated segments within untrimmed sequences. However, existing methods are limited by CNNs&#x27; local receptive fields or Transformers&#x27; quadratic complexity, while emerging linear models often struggle to…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00902">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00902">arxiv</a></p>
+            <summary>HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment<span class="feed-name">Shei Pern Chua, Fangzhao Wu</span></summary>
+            <p class="summary">Understanding how aligned LLMs internally represent safety is critical for diagnosing alignment vulnerabilities, as it explains why jailbreaks succeed and informs the design of robust alignment strategies. Prior work shows that aligned LLMs encode harmfulness and refusal as separable directions in the residual stream at prompt-side token positions. We show that jailbreaks succeed at prompt…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00572">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00572">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -173,26 +273,6 @@
             <summary>MuSViT: A Foundation Vision Model for Sheet Music Representation<span class="feed-name">Carlos Penarrubia, Antonio Rios-Vila, Eliseo Fuentes-Martinez, Juan C. Martinez-Sevilla, et al.</span></summary>
             <p class="summary">Foundation models have transformed vision and language processing by providing rich, reusable representations that transfer across diverse tasks. Sheet music, as a visual encoding of musical language, lacks such a strong domain-specific backbone. We introduce MuSViT (Music Score Vision Transformer): the first foundation vision model for sheet music representation -- a ViT encoder pre-trained via…</p>
             <p class="link-line"><a href="https://huggingface.co/papers/2606.31811">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31811">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 2</div>
-        <div class="content">
-          <details>
-            <summary>TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive<span class="feed-name">Brian Wei, Srikumar Sastry, Daniel Cher, Eric Xing, et al.</span></summary>
-            <p class="summary">Generative models have achieved remarkable progress, yet applying them to satellite imagery remains challenging. Unlike natural imagery, satellite scenes are structured by spatially complex and semantically distinct geometries. Prior work addresses this complexity by adapting natural image frameworks using dense rasters or sparse prompts, trading off annotation cost and fidelity while breaking…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31029">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31029">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 2</div>
-        <div class="content">
-          <details>
-            <summary>LUMOS: A Semantic Operating-System Layer for Accessibility-Grounded AI Agents<span class="feed-name">Yogeswar Reddy Thota</span></summary>
-            <p class="summary">Current operating systems expose interfaces optimized for human users but not for AI agents. Humans benefit from pixels, icons, windows, visual grouping, mouse movement, and keyboard shortcuts; AI agents instead need compact semantic state, grounded actions, and reliable feedback. As a result, many computer-use agents are forced to interpret screenshots, OCR output, and visual crops, introducing…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.30697">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.30697">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -210,19 +290,9 @@
         <div class="date">↑ 1</div>
         <div class="content">
           <details>
-            <summary>Autonomous Scientific Discovery via Iterative Meta-Reflection<span class="feed-name">Bingchen Zhao, Sara Beery, Oisin Mac Aodha</span></summary>
-            <p class="summary">Autonomous scientific discovery systems offer the potential to accelerate research by automating the process of hypothesis generation and validation. However, current systems operate within constrained search spaces or require predefined research questions, limiting their capacity for true open-ended inquiry. Furthermore, while they generate hypotheses iteratively, they largely lack the ability…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.01131">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01131">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 1</div>
-        <div class="content">
-          <details>
-            <summary>ABot-M0.5: Unified Mobility-and-Manipulation World Action Model<span class="feed-name">Ronghan Chen, Yandan Yang, Zuojin Tang, Dongjie Huo, et al.</span></summary>
-            <p class="summary">Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods. VLA policies are typically reactive and lack explicit world modeling, while existing World Action Models (WAMs) are still poorly aligned with the structure of mobile manipulation: they operate on coarse video chunks, model entangled navigation-manipulation actions,…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00678">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00678">arxiv</a></p>
+            <summary>Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising<span class="feed-name">Tianci Liu, Zihan Dong, Linjun Zhang, Haoyu Wang, et al.</span></summary>
+            <p class="summary">Slide design requires personalizing both deck themes and page layouts. Yet, current AI agent-based methods struggle with fine-grained, page-level design. Solely relying on prespecified templates or user verbose instructions, they fail to capture latent design intents, leaving Page-level Slide Personalization (PSP) unresolved. To close this gap, this work formulates PSP as an inverse planning…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00407">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00407">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -240,9 +310,9 @@
         <div class="date">↑ 1</div>
         <div class="content">
           <details>
-            <summary>SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE<span class="feed-name">Or Hirschorn, Aaron Olender, Eli Alshan, Ianir Ideses, et al.</span></summary>
-            <p class="summary">We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.32033">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32033">arxiv</a></p>
+            <summary>PointSplat: Compact Gaussian Splatting via Human-Centric Prediction<span class="feed-name">Yujie Guo, Yudong Jin, Lingteng Qiu, Zehong Shen, et al.</span></summary>
+            <p class="summary">Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconstruction methods achieve impressive quality through the view-centric prediction of 3D representations, they repeatedly…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2606.32036">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32036">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -270,16 +340,6 @@
         <div class="date">↑ 1</div>
         <div class="content">
           <details>
-            <summary>AutoTrainess: Teaching Language Models to Improve Language Models Autonomously<span class="feed-name">Zhaojian Yu, Penghao Yin, Shuzheng Gao, Shilin He, et al.</span></summary>
-            <p class="summary">Training language models (LMs) remains a highly human-intensive process, even as frontier language model agents become increasingly capable at software engineering and other long-horizon tasks. A central challenge is that autonomous post-training is not just a coding problem: it requires the agent to repeatedly plan iterations, construct benchmark-aligned data, run stable training jobs, evaluate…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31551">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31551">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 1</div>
-        <div class="content">
-          <details>
             <summary>SimpleSearch-VL: A Simple Recipe for Multimodal Agentic Deep Search<span class="feed-name">Ming Dai, Zhihong Lu, Jinjie Gu, Jiedong Zhuang, et al.</span></summary>
             <p class="summary">We present SimpleSearch-VL, an efficient, reliable, and practical framework for multimodal agentic search. Its core idea is to improve the agent&#x27;s own search-and-verification process rather than scaling data, tools, or auxiliary model components. For efficiency, Factorized Adaptive Rollout (FAR) improves sampling efficiency by forming more informative training groups while using redundant samples…</p>
             <p class="link-line"><a href="https://huggingface.co/papers/2606.31504">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31504">arxiv</a></p>
@@ -287,22 +347,12 @@
         </div>
       </div>
       <div class="entry">
-        <div class="date">↑ 1</div>
+        <div class="date">↑ 0</div>
         <div class="content">
           <details>
-            <summary>Goku: A Million-Scale Universal Dataset and Benchmark for Instruction-Based Video Editing<span class="feed-name">Sen Liang, Cong Wang, Zhentao Yu, Fengbin Guan, et al.</span></summary>
-            <p class="summary">Existing instruction-based video editing datasets commonly focus on single-task appearance editing, failing to meet the complex creative demands of real-world scenarios. To bridge this gap, we present Goku, a large-scale dataset featuring 2 million high-quality, instruction-aligned video editing pairs, which is the first to extend task boundaries from basic appearance editing to multi-task and…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.30599">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.30599">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 1</div>
-        <div class="content">
-          <details>
-            <summary>DinoLink: A Token-Centric Representation Compression Framework for Bandwidth-Constrained Collaborative V2X Perception<span class="feed-name">Tianle Zhu, Haohua Que, Handong Yao, Hongyi Xu, et al.</span></summary>
-            <p class="summary">High-precision remote perception is often hindered by the severe bandwidth constraints of Vehicle-to-Everything (V2X) networks. We propose DinoLink, a token-centric compression framework that replaces raw pixel streaming with discrete semantic communication for vehicle-cloud collaborative inference. DinoLink employs a dual-sparsity architecture: a saliency-aware selector prunes redundant…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.26398">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.26398">arxiv</a></p>
+            <summary>TiRex-2: Generalizing TiRex to Multivariate Data and Streaming<span class="feed-name">Patrick Podest, Marco Pichler, Elias Bürger, Levente Zólyomi, et al.</span></summary>
+            <p class="summary">We introduce TiRex-2, a recurrent xLSTM-based time series foundation model that generalizes the univariate TiRex to multivariate forecasting with both past and future covariates. Real-world forecasting is inherently sequential: observations arrive continuously, variables evolve jointly, and a subset of covariates is known ahead of time. Existing Transformer-based time series foundation models…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01204">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01204">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -310,9 +360,9 @@
         <div class="date">↑ 0</div>
         <div class="content">
           <details>
-            <summary>Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning<span class="feed-name">Hongxing Li, Xiufeng Huang, Dingming Li, Wenjing Jiang, et al.</span></summary>
-            <p class="summary">Fine-grained visual reasoning remains challenging for vision-language models, especially when small but critical visual cues are buried in high-resolution images. Existing approaches rely on repeated cropping or test-time visual search to introduce local evidence, but they typically do not explicitly distinguish perception from reasoning. In this paper, we propose Perceive-to-Reason (P2R), a…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.01191">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01191">arxiv</a></p>
+            <summary>Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads<span class="feed-name">Aryo Pradipta Gema, Beatrice Alex, Pasquale Minervini</span></summary>
+            <p class="summary">In long-context use, large language models frequently synthesize answers from the meaning of a relevant context span rather than literally copy-pasting them. Identifying which attention heads perform this synthesis matters for interpreting long-context model behavior. Yet existing detectors miss these heads by construction: they reward heads whose attended token matches the generated token, a…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.01002">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01002">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -320,9 +370,9 @@
         <div class="date">↑ 0</div>
         <div class="content">
           <details>
-            <summary>MemSyco-Bench: Benchmarking Sycophancy in Agent Memory<span class="feed-name">Zhishang Xiang, Zerui Chen, Yunbo Tang, Zhimin Wei, et al.</span></summary>
-            <p class="summary">Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved memories often induce a critical issue of sycophancy, causing agents to over-align with the user at the cost of factual accuracy or objective reasoning. Despite this emerging risk, existing memory…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.01071">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.01071">arxiv</a></p>
+            <summary>LeVLJEPA: End-to-End Vision-Language Pretraining Without Negatives<span class="feed-name">Lukas Kuhn, Giuseppe Serra, Randall Balestriero, Florian Buettner</span></summary>
+            <p class="summary">Vision-language pretraining remains dominated by contrastive objectives, whereas vision-only self-supervised learning has largely adopted non-contrastive methods. At the same time, the role of vision-language encoders has shifted: they are increasingly deployed not as zero-shot classifiers but as the frozen visual backbone of vision-language models and dense prediction systems, which consume the…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00784">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00784">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -330,9 +380,9 @@
         <div class="date">↑ 0</div>
         <div class="content">
           <details>
-            <summary>Valdi: Value Diffusion World Models<span class="feed-name">Christopher Lindenberg, Kashyap Chitta</span></summary>
-            <p class="summary">World models can enable Model Predictive Control (MPC), but this requires dynamics prediction that is both fast enough for online use and expressive enough to represent uncertain futures. Diffusion models offer a natural mechanism for modeling uncertain dynamics, yet their iterative inference procedure makes them difficult to use for low-latency latent planning. We bridge this gap with Value…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00917">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00917">arxiv</a></p>
+            <summary>What Survives Into Context: A Diagnostic for Budget-Constrained Multi-Hop RAG and When Submodular Evidence Packing Improves It<span class="feed-name">Ananto Nayan Bala</span></summary>
+            <p class="summary">Retrieval-augmented generation (RAG) under a fixed reader-context budget forces a selection problem: of the evidence retrieved, only a fraction can be shown to the reader. We argue that document recall -- the standard retrieval metric -- is the wrong quantity to optimize in this regime, and we make two contributions. First, as a general contribution, we introduce answer-in-context, a diagnostic…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00725">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00725">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -340,9 +390,29 @@
         <div class="date">↑ 0</div>
         <div class="content">
           <details>
-            <summary>ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving<span class="feed-name">Sangjin Choi, Sukmin Cho, Yifan Xiong, Ziyue Yang, et al.</span></summary>
-            <p class="summary">In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of every distinct expert its batch activates. We present ELDR, an expert-locality-aware decode router…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2607.00466">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00466">arxiv</a></p>
+            <summary>MSQA: A Natively Sourced Multilingual and Multicultural SimpleQA Benchmark<span class="feed-name">Xianru Chen, Yukai Huang, Mingxiang Chen, Xinping Lei, et al.</span></summary>
+            <p class="summary">Multilingual fluency often invites a stronger assumption: a model that can speak a user&#x27;s language must also understand the culture encoded by that language. We call this the Illusion of Cultural Alignment. To test this assumption directly, we introduce MSQA, a benchmark of 1,064 natively sourced questions across 11 language groups, five cultural dimensions, and three difficulty tiers. Unlike…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00724">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00724">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 0</div>
+        <div class="content">
+          <details>
+            <summary>NoPA: Non-Parametric Online 3D Scene Graph Generation<span class="feed-name">Qi Xun Yeo, Seungjun Lee, Yan Li, Gim Hee Lee</span></summary>
+            <p class="summary">Classic 3D scene graph generation approaches fail to work in real-time due to the heavy computational cost of environment mapping and the need to generate intermediate point-cloud representations. To alleviate this issue, a recent work eschews point clouds in favor of a lightweight Gaussian distribution for each object. This approximation drastically speeds up inference and enables real-time 3D…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00529">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00529">arxiv</a></p>
+          </details>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">↑ 0</div>
+        <div class="content">
+          <details>
+            <summary>SPECSIA: Stylization Dataset for Novel-View Enhancement in Drawing-based 3D Animation<span class="feed-name">Kyuwon Kim, Sunjae Yoon, Chang D. Yoo</span></summary>
+            <p class="summary">Generating animation from a single 2D drawing is challenging because the output must preserve character appearance while remaining plausible and temporally coherent under motion. Existing drawing-based 3D animation pipelines often use sample-wise 2D refinement to align animated renderings with the input image, but such optimization tends to overfit to the observed view and fails to correct…</p>
+            <p class="link-line"><a href="https://huggingface.co/papers/2607.00525">huggingface</a> &middot; <a href="https://arxiv.org/abs/2607.00525">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -383,16 +453,6 @@
             <summary>FaceMoE: Mixture of Experts for Low-Resolution Face Recognition<span class="feed-name">Kartik Narayan, Vishal M. Patel</span></summary>
             <p class="summary">Low-resolution face recognition (LR-FR) remains a challenging task due to poor feature extraction and aggregation, as probe images often contain limited identity information resulting from extreme degradations such as blur, occlusion, and low contrast. Additionally, the domain gap between high-resolution (HR) gallery images and low-resolution (LR) probe images poses a significant challenge. A…</p>
             <p class="link-line"><a href="https://huggingface.co/papers/2606.32040">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32040">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>PointSplat: Compact Gaussian Splatting via Human-Centric Prediction<span class="feed-name">Yujie Guo, Yudong Jin, Lingteng Qiu, Zehong Shen, et al.</span></summary>
-            <p class="summary">Producing 3D human representations from input views on the fly is essential for immersive live streaming systems, where representation compactness is as critical as high fidelity given limited computational power and transmission bandwidth. Although recent feed-forward reconstruction methods achieve impressive quality through the view-centric prediction of 3D representations, they repeatedly…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.32036">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.32036">arxiv</a></p>
           </details>
         </div>
       </div>
@@ -453,66 +513,6 @@
             <summary>CDR-Bench: Evaluating Faithful Execution of Compositional, Order-Sensitive Data Refinement Recipes<span class="feed-name">Yuchen Huang, Xiang Li, Zhenqing Ling, Sijia Li, et al.</span></summary>
             <p class="summary">Data refinement involves executing multi-step recipes over evolving text states, where both composition and execution order of processing operators determine the outcome. While existing benchmarks either isolate text editing or entangle it with code and tool execution, it remains unclear whether LLMs can directly and faithfully execute these compositional, order-sensitive data refinement recipes.…</p>
             <p class="link-line"><a href="https://huggingface.co/papers/2606.31435">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31435">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance<span class="feed-name">Dongyoon Hwang, Byungkun Lee, Dongjin Kim, Hyojin Jang, et al.</span></summary>
-            <p class="summary">Hierarchical Vision-Language-Action (VLA) models decouple high-level planning from low-level control to improve generalization in robot manipulation. Recent work in this paradigm uses 2D end-effector trajectories predicted by a Vision-Language Model (VLM) as explicit guidance for a downstream policy. However, state-of-the-art low-level policies operate in 3D metric space on point clouds, and…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31329">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31329">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation<span class="feed-name">Yuan Wang, Wanxing Chang, Songtao Jiang, Shujian Gao, et al.</span></summary>
-            <p class="summary">Traditional metrics for Medical Report Generation (MRG) predominantly rely on surface-level n-gram overlap, which fails to capture clinical factual accuracy and often overlooks catastrophic diagnostic errors. We address this fundamental limitation by proposing AtomiMed, a universal, modality-agnostic evaluation framework that decomposes complex medical narratives into a standardized, multi-level…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31292">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31292">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>FlexiSLM: A Dynamic and Controllable Frame Rate Spoken Language Model<span class="feed-name">Jiaqi Li, Chaoren Wang, Xiaohai Tian, Mingjie Chen, et al.</span></summary>
-            <p class="summary">Spoken language models (SLMs) extend LLMs to speech input and output. Existing SLMs represent speech at fixed frame rates (e.g., 25 or 12.5 Hz), ignoring the time-varying information density of speech and offering no flexibility to trade off quality for speed at inference time. Recent audio tokenizer research has proposed dynamic frame rate speech coding, which exploits this non-uniformity and…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31247">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31247">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>ComplianceGate: Classifier-Gated Multi-Tier LLM Routing for Inference in Regulated Industries<span class="feed-name">Abhishek Dey</span></summary>
-            <p class="summary">Large language models deployed in regulated industries operate under two constraints: compliance enforcement and cost efficiency. Personally identifiable information (PII) in user queries can reach model endpoints before the system determines whether that data should leave its jurisdictional boundary. Serving all queries through a single large model consumes full GPU capacity regardless of query…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31163">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31163">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>Anchoring on Reality: Breaking the Pseudo-Target Ceiling in Makeup Transfer<span class="feed-name">Bo Wei, Xianhui Lin, Yi Dong, Zhongzhong Li, et al.</span></summary>
-            <p class="summary">Makeup transfer applies a reference cosmetic style to a source face while preserving its identity and geometry. However, this task is severely hindered by the lack of real paired training data. Current methods rely on either weak priors or synthetic pseudo-targets from large-scale editing models. These paradigms provide suboptimal guidance, often leading to degraded fine-grained details,…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2606.31089">huggingface</a> &middot; <a href="https://arxiv.org/abs/2606.31089">arxiv</a></p>
-          </details>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="date">↑ 0</div>
-        <div class="content">
-          <details>
-            <summary>GORGO: Online Tuning for Cross-Region Network-Aware LLM Serving<span class="feed-name">Alessio Ricci Toniolo, Rome Thorstenson, Abinaya Dinesh</span></summary>
-            <p class="summary">Increasingly, LLM inference services proxy client requests to engine replicas distributed globally. Load-balancing policies must jointly account for factors including KV-cache locality, replica load, and variable network latency when optimizing for metrics like latency and TTFT. However, existing systems only evaluate a subset of these factors in their cost model, leading to uneven concentrations…</p>
-            <p class="link-line"><a href="https://huggingface.co/papers/2602.11688">huggingface</a> &middot; <a href="https://arxiv.org/abs/2602.11688">arxiv</a></p>
           </details>
         </div>
       </div>
